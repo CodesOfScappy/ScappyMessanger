@@ -3,6 +3,8 @@ package com.example.scappyapp.Models;
 public class Users {
     String profilepic , userName , mail , password , userId , lastMessage , status;
 
+
+
     public Users(String profilepic, String userName, String mail, String password, String userId, String lastMessage) {
         this.profilepic = profilepic;
         this.userName = userName;

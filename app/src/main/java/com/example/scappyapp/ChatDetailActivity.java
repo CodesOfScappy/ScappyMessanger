@@ -46,7 +46,7 @@ public class ChatDetailActivity extends AppCompatActivity {
         String userName = getIntent().getStringExtra("userName");
         String profilePic = getIntent().getStringExtra("profilePic");
 
-        binding.userName.setText(userName);
+        binding.etUserName.setText(userName);
         Picasso.get().load(profilePic).placeholder(R.drawable.avatar).into(binding.profileImage);
 
         binding.backArrow.setOnClickListener(new View.OnClickListener() {
@@ -59,7 +59,7 @@ public class ChatDetailActivity extends AppCompatActivity {
 
         final ArrayList<MessageModel> messageModels = new ArrayList<>();
 
-        final ChatAdapter chatAdapter = new ChatAdapter(messageModels ,this);
+        final ChatAdapter chatAdapter = new ChatAdapter(messageModels ,this , recieveId);
         binding.chatRecyclerView.setAdapter(chatAdapter);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -79,6 +79,7 @@ public class ChatDetailActivity extends AppCompatActivity {
                     for (DataSnapshot snapshot1 : snapshot.getChildren())
                     {
                         MessageModel model = snapshot1.getValue(MessageModel.class);
+                        model.setMessageId(snapshot1.getKey());
 
                         messageModels.add(model);
                     }
