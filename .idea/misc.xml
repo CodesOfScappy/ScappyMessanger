@@ -27,6 +27,7 @@
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/drawable/send.xml" value="0.1" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/drawable/user.xml" value="0.2525" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/drawable/users.xml" value="0.1735" />
+        <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/drawable/usertest.xml" value="0.3695" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/drawable/videocall.xml" value="0.2685" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/drawable/whatsapp.xml" value="0.1735" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout-v21/activity_main.xml" value="0.3645833333333333" />
@@ -34,7 +35,7 @@
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_group_chat.xml" value="0.36041666666666666" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_group_chat2.xml" value="0.3645833333333333" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_settings.xml" value="0.33" />
+        <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_settings.xml" value="0.25" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_sign_in.xml" value="0.3307291666666667" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
         <entry key="..\:/Users/Kelle/AndroidStudioProjects/ScappyApp/app/src/main/res/layout/fragment_calls_fragments.xml" value="0.3401268115942029" />
